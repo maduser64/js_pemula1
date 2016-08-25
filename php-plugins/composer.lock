@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "43795b48e5b4f28364abd95776e4bb3d",
+    "content-hash": "0cd8bfa8cafba391938639cd6fccbf7d",
+    "packages": [
+        {
+            "name": "aarondfrancis/urlcrypt",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aarondfrancis/URLcrypt.git",
+                "reference": "2684e677d856f95ca0c3fa8ed93d007999083f0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aarondfrancis/URLcrypt/zipball/2684e677d856f95ca0c3fa8ed93d007999083f0a",
+                "reference": "2684e677d856f95ca0c3fa8ed93d007999083f0a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mcrypt": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Urlcrypt\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Francis",
+                    "email": "aarondfrancis@gmail.com"
+                }
+            ],
+            "description": "PHP library to securely encode and decode short pieces of arbitrary binary data in URLs.",
+            "time": "2015-03-06 21:18:50"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

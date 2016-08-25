@@ -1,0 +1,23 @@
+{
+    "name": "aarondfrancis/urlcrypt",
+    "description": "PHP library to securely encode and decode short pieces of arbitrary binary data in URLs.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Francis",
+            "email": "aarondfrancis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-mcrypt": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "autoload": {
+        "psr-4": {"Urlcrypt\\": "lib/"}
+    }
+}
